@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+p.r {
+	color: #464646;
+		text-align: center;
+
+}
+p.r input {
+	margin-left: 10px;
+}
+p.r span {
+	width: 80px;
+	display: inline-block;
+	text-align: right;
+}
+p.r a{
+	text-decoration:none;
+	}
+

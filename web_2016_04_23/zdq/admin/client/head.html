@@ -1,0 +1,17 @@
+<?php require_once('../../../mysql_connect.php'); 
+if (!isset($_SESSION)) {
+  session_start();
+}
+if($_SESSION['zdq_admin_group']!=1){
+	$_SESSION['zdq_admin_s'] = NULL;
+	$_SESSION['zdq_admin_group'] = NULL;
+	unset($_SESSION['zdq_admin_s']);
+	unset($_SESSION['zdq_admin_group']);
+	$logoutGoTo = "index.php?force=home";
+    header("Location: $logoutGoTo");
+    exit;
+
+	}
+
+?>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>

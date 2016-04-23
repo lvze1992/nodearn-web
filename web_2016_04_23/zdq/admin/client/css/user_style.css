@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-size: 12px;
+	color: #333333;
+	padding-left:30px;
+}
+.pull-left {
+ float: left !important;
+margin-right: 20px;
+}
+a {
+    color: #06C;
+    cursor: pointer;
+	text-decoration:none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.margin-top{
+    margin-top: 8px !important;
+	padding-left: 10px;
+}
+p {
+    margin: 0 0 10px;
+}
+img.user{
+    vertical-align: middle;
+	border:0;
+}
+.avatar-txt-margin {
+    margin-left: 34px;
+}
+.summary {
+    padding-top: 20px;
+}
+.clear{
+	border-top: 1px solid #e1e6eb;
+	clear:both;
+	}
+
+

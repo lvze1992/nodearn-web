@@ -1,0 +1,25 @@
+<?php 
+define('ROOT',pathinfo(_FILE_,PATHINFO_DIRNAME));
+require_once(ROOT.'../../../mysql_connect.php'); 
+if (!isset($_SESSION)) {
+  session_start();
+}
+if($_SESSION['zdq_admin_group']!=0||$_SESSION['zdq_admin_group']==NULL){
+	$_SESSION['zdq_admin_s'] = NULL;
+	$_SESSION['zdq_admin_group'] = NULL;
+	unset($_SESSION['zdq_admin_s']);
+	unset($_SESSION['zdq_admin_group']);
+	$logoutGoTo = "login.php?force=i";
+    header("Location: $logoutGoTo");
+    exit;
+	}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><?php echo $title;?></title>
+<link href="css/table_style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>

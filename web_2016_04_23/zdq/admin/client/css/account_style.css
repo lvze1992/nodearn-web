@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+.account-block {
+	border: solid 1px #ccd6e0;
+}
+.col-sm-12 {
+	width: 96%;
+	box-sizing: border-box;
+}
+.text-size-18 {
+	font-size: 18px !important;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	float: left;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+}
+body {
+	font-size: 12px;
+	padding-left: 8px;
+	line-height: 1.428571429;
+	color: #333333;
+	background-color: #ffffff;
+}
+.account-home-left-title {
+	display: inline-block;
+	width: 94px;
+	text-align: right;
+}
+.text-size-16 {
+	font-size: 16px !important;
+}
+.text-muted {
+	color: #999 !important;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+a {
+	text-decoration: none;
+	background: transparent;
+	color: #06C;
+	cursor: pointer;
+}
+.account-home-cash {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: dashed 1px #bcbcbc;
+}
+.account-home-threshold {
+	padding-bottom: 20px;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-top: 10px;
+}
+.text-explode {
+	color: #CCC !important;
+	font-weight: normal !important;
+	margin: 0px 4px !important;
+}
+.btn-primary {
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	background-color: #C63;
+	line-height: 27px;
+	color: #FFF;
+	margin: 0 10px 0 5px;
+}
+
