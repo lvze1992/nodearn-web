@@ -3,36 +3,36 @@
 nodearn - background management
 =========================
 
-A web deployment tool, Easy for configuration, Fully functional, Smooth interface, Out of the box.
-support git/svn Version control system, no matter what language you are, php/java/ruby/python, just as jenkins. you can deploy the code or output to multiple servers easily by walle.
+将整个文件夹放置网站任意目录
+导入zdq.sql即可正常运行
 
-[Home Page](https://www.walle-web.io) | [官方主页](https://www.walle-web.io) | [中文说明](https://github.com/meolu/walle-web/blob/master/docs/README-zh.md) | [文档手册](https://www.walle-web.io/docs/).
+[Home Page](http://121.42.169.148/admin/client/) | [宣传主页](http://121.42.169.148/) 
 
-Requirements
+v0.4.2 (2016/04/23 22:00 +00:00) 完成阅读推广任务
 ------------
 
-* Support git/svn Version control system.
-* User signup by admin/develop identity.
-* Developer submit a task, deploy task.
-* Admin audit task.
-* Multiple project.
-* Multiple Task Parallel.
-* Quick rollback.
-* Group relation of project.
-* Task of pre-deploy（e.g: test ENV var）.
-* Task of post-deploy（e.g: mvn/ant, composer install for vendor）.
-* Task of pre-release（e.g: stop service）.
-* Task of post-release（e.g: restart service）.
-* Check up file md5.
-* Multi-process multi-server file transfer (Ansible).
+* 请将web中的zdq.sql替换旧的数据库。
+* 发现并修改了mission.php中的错误。
+* sys/read_mission.php为刷阅读推广任务列表，阅读任务图片只可能为1张或3张，请判断并选择布局。
+* sys/read_mission_click.php为点击阅读链接后的跳转文件，每个咨询均有链接1和链接2（非初始链接），链接1用于app中；链接2用于转发后。
+* sys/client_mission.php为刷任务列表文件。
+* sys/client_mission_detail.php为刷任务详情信息文件。
+* sys/mission_state.php为任务按钮或文字初始状态。
+* sys/mission.php为任务按钮触发后的状态。
+* sys/mission_vert.php为问题回答验证文件。
+* sys/sys_mission.php为刷系统任务列表。
+* client/index.php为商户管理界面。
+* client_check/index.php为商户关注推广任务审核页面（发布的任务需先审核才会显示）。
 
 
-Requirements
+v0.4.1 (2016/04/04 12:00 +00:00) 完成系统任务&商户关注推广任务
 ------------
 
-* Bash(git、ssh)
-* LNMP/LAMP(php5.4+)
-* Composer
-* Ansible(Optional)
-
-That's all. It's base package of PHP environment!
+* sys/client_mission.php为刷任务列表文件。
+* sys/client_mission_detail.php为刷任务详情信息文件。
+* sys/mission_state.php为任务按钮或文字初始状态。
+* sys/mission.php为任务按钮触发后的状态。
+* sys/mission_vert.php为问题回答验证文件。
+* sys/sys_mission.php为刷系统任务列表。
+* client/index.php为商户管理界面。
+* client_check/index.php为商户关注推广任务审核页面（发布的任务需先审核才会显示）。
