@@ -1,4 +1,4 @@
-![](https://github.com/lvze1992/nodearn-web/blob/master/logo2.jpg)
+![](https://github.com/lvze1992/nodearn-web/blob/master/logo_a.jpg)
 
 nodearn - background management
 =========================
