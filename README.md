@@ -7,6 +7,8 @@ nodearn - background management
 
 [Home Page](http://121.42.169.148/admin/client/) | [宣传主页](http://121.42.169.148/) 
 
+#### 此项目非私人项目，故转载，使用请告知。lvzeyst@aliyun.com
+
 v0.4.2 (2016/04/23 22:00 +00:00) 完成阅读推广任务
 ------------
 
@@ -35,3 +37,4 @@ v0.4.1 (2016/04/04 12:00 +00:00) 完成系统任务&商户关注推广任务
 * sys/sys_mission.php为刷系统任务列表。
 * client/index.php为商户管理界面。
 * client_check/index.php为商户关注推广任务审核页面（发布的任务需先审核才会显示）。
+
