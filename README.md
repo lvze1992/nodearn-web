@@ -1,5 +1,5 @@
 ![](http://121.42.169.148/img/nav-logo.png)
-
+![](http://121.42.169.148/img/logo_a.jpg)
 nodearn - background management
 =========================
 
