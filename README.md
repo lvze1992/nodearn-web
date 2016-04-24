@@ -1,6 +1,6 @@
 ![](https://github.com/lvze1992/nodearn-web/blob/master/logo_a.jpg)
 
-nodearn - background management
+nodearn - background management0
 =========================
 
 将整个文件夹放置网站任意目录，导入zdq.sql即可正常运行。
