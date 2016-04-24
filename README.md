@@ -1,5 +1,4 @@
-
-![](http://121.42.169.148/admin/client/images/bg1_1.png)
+![](http://121.42.169.148/img/logo_a.jpg)
 nodearn - background management
 =========================
 
