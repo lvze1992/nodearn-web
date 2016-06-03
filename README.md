@@ -3,7 +3,7 @@ nodearn - background management
 =========================
 
 将整个文件夹放置网站任意目录，导入zdq.sql即可正常运行。
-* wamp(windoes+apache+mysql+php)
+* wamp(windows+apache+mysql+php)
 
 [Home Page](http://121.42.169.148/admin/client/) | [宣传主页](http://121.42.169.148/) 
 
